@@ -93,7 +93,7 @@ For a more general index related to all-things Emacs, use [[https://github.com/e
 
   This means that any user can browse, extend or even override core Emacs functionalities at runtime.
 
-  As such, in essence, Emacs is [[https://www.eigenbahn.com/2020/01/12/emacs-is-no-editor][not an editor]] but more a platform allowing users to write text-based apps.
+  As such, in essence, Emacs is [[http://web.archive.org/web/20230712071615/https://www.eigenbahn.com/2020/01/12/emacs-is-no-editor][not an editor]] but more a platform allowing users to write text-based apps.
 
   Being an editor is not its intrinsic nature but merely a feature.
 
