@@ -155,7 +155,7 @@ For a more general index related to all-things Emacs, use [[https://github.com/e
 
 *** xahlee.info - Practical Emacs Lisp
 
-    [[http://xahlee.info/emacs/emacs/elisp.html][read online]], accompagnying [[https://www.youtube.com/@XahLee/streams][youtube live streams]]
+    [[http://xahlee.info/emacs/emacs/elisp.html][read online]], accompanying [[https://www.youtube.com/@XahLee/streams][youtube live streams]]
 
     One of the first resources on the web introducing Elisp in a concise and comprehensible way.
 
@@ -276,13 +276,13 @@ For a more general index related to all-things Emacs, use [[https://github.com/e
     Real world experience of a user writing and submitting his first package.
 
 
-*** MELPA recommandations
+*** MELPA recommendations
 
     [[https://github.com/melpa/melpa/blob/master/CONTRIBUTING.org#making-your-package-ready-for-inclusion][read online]]
 
     There's a high chance that you'll be uploading your package on [[https://melpa.org/][MELPA]].
 
-    They have clear recommandations.
+    They have clear recommendations.
 
     Don't worry, for your first submissions, they will be very comprehensive and will help you fixing what's wrong.
 
@@ -302,7 +302,7 @@ For a more general index related to all-things Emacs, use [[https://github.com/e
 
   By default, Emacs is already pretty well set up for Elisp development.
 
-  But some features can be hard to learn and some stuff can be improved with additinal packages.
+  But some features can be hard to learn and some stuff can be improved with additional packages.
 
   See also those talks [[https://github.com/p3r7/awesome-elisp#john-wiegley-jwiegley][John Wiegley]] gave about his setup for Elisp development:
   - [[https://www.youtube.com/watch?v=QFClYrhV1z4][Emacs Lisp Development - @ Emacs Conference 2013]]
@@ -399,7 +399,7 @@ For a more general index related to all-things Emacs, use [[https://github.com/e
 
      [[https://github.com/emacsmirror/eval-sexp-fu][source]]
 
-     Visual improvment.
+     Visual improvement.
 
      Flashes the sexps during the evaluation.
 
@@ -470,7 +470,7 @@ For a more general index related to all-things Emacs, use [[https://github.com/e
 
    To jump to the definition of a symbol Emacs provides =xref-find-definitions=. In practice it works with nicely with functions but is kind of hit-or-miss with variables.
 
-   In addition, the following more specialised functions exist:
+   In addition, the following more specialized functions exist:
    - =find-function=: go to the definition of function
    - =find-variable=: go to the definition of variable
    - =find-library=: go to the definition of /feature/ (i.e. module, package)
@@ -522,7 +522,7 @@ For a more general index related to all-things Emacs, use [[https://github.com/e
 
      [[https://github.com/Malabarba/speed-of-thought-lisp][source]]
 
-     Allows writting Elisp blazingly fast with the use of context-aware abbreviations triggered after =<SPACE>= keypress.
+     Allows writing Elisp blazingly fast with the use of context-aware abbreviations triggered after =<SPACE>= keypress.
 
 
 **** elisp-docstring
@@ -648,7 +648,7 @@ For a more general index related to all-things Emacs, use [[https://github.com/e
 
      Especially suitable for [[https://en.wikipedia.org/wiki/Integration_testing][integration tests]].
 
-     Allows defining test suites (i.e. goups of related tests) with a shared context (through /set-up/ and /tear-down/ phases).
+     Allows defining test suites (i.e. groups of related tests) with a shared context (through /set-up/ and /tear-down/ phases).
 
      Also provides mocking capabilities.
 
@@ -676,7 +676,7 @@ For a more general index related to all-things Emacs, use [[https://github.com/e
 
 ** Profiling
 
-   Emacs provides 2 Elips profilers:
+   Emacs provides 2 Elisp profilers:
    - =profiler.el=: profile a whole call stack, easier to use
    - =elp.el=: profile only selected functions
 
@@ -870,7 +870,7 @@ For a more general index related to all-things Emacs, use [[https://github.com/e
 
    Several packages provide visual improvements and extend default syntax highlighting (/font locking/ in Emacs lingo).
 
-   All those listed bellow are complementary.
+   All those listed below are complementary.
 
    Honorable mentions:
     - [[https://github.com/Fanael/highlight-defined][highlight-defined]] which is superseded by =lisp-extra-font-lock= functionalities
@@ -1012,7 +1012,7 @@ For a more general index related to all-things Emacs, use [[https://github.com/e
 
      Simulate user interactions (i.e. launch /commands/).
 
-     Mostly usefull for writing tests.
+     Mostly useful for writing tests.
 
 
 **** dokey
@@ -1026,7 +1026,7 @@ For a more general index related to all-things Emacs, use [[https://github.com/e
 
      [[https://github.com/langston-barrett/contract.el][source & doc]]
 
-     Provides data structure defintions as contracts (essentially interface description).
+     Provides data structure definitions as contracts (essentially interface description).
 
      Port of [[https://docs.racket-lang.org/reference/contracts.html][Racket's contract]] to Elisp.
 
@@ -1058,7 +1058,7 @@ For a more general index related to all-things Emacs, use [[https://github.com/e
 
      [[https://github.com/Fuco1/emacs-cats][source & doc]]
 
-     Provices Haskell-inspired Category Theory abstractions.
+     Provides Haskell-inspired Category Theory abstractions.
 
 
 **** fn
@@ -1498,7 +1498,7 @@ For a more general index related to all-things Emacs, use [[https://github.com/e
 
      Provides APIs to build and manipulate NFA (/Nondeterministic Finite Automaton/), i.e. a state machine / decision tree.
 
-     It was built manily with regexp parsing in mind.
+     It was built mainly with regexp parsing in mind.
 
 
 **** parsec
@@ -1563,7 +1563,7 @@ For a more general index related to all-things Emacs, use [[https://github.com/e
 
      [[https://github.com/Fuco1/orgba][source & doc]]
 
-     More user-friendly APIs for writting code for interacting with org documents.
+     More user-friendly APIs for writing code for interacting with org documents.
 
 
 *** Faces
@@ -1907,7 +1907,7 @@ For a more general index related to all-things Emacs, use [[https://github.com/e
 
      [[./rsc/icon/informal-standard.png]]
 
-     Websocket (peristent HTTP connection) client for Emacs.
+     Websocket (persistent HTTP connection) client for Emacs.
 
 
 **** apiwrap
@@ -1993,7 +1993,7 @@ For a more general index related to all-things Emacs, use [[https://github.com/e
 
      [[https://github.com/ieure/debase][source & doc]]
 
-     EIEIO abstractions over =dbus= for writting easier interaction code.
+     EIEIO abstractions over =dbus= for writing easier interaction code.
 
 
 ** Database Access
@@ -2015,7 +2015,7 @@ For a more general index related to all-things Emacs, use [[https://github.com/e
 
      [[./rsc/icon/standard.png]] (since version 29)
 
-     Recent Emacs now embbeds a native SQLite3 database & the accompagnying client.
+     Recent Emacs now embbeds a native SQLite3 database & the accompanying client.
 
 
 **** emacsql
@@ -2216,7 +2216,7 @@ For a more general index related to all-things Emacs, use [[https://github.com/e
 
    Known for:
    - his website, containing one of the first digestible Emacs and Elisp tutorials on the web
-   - the accompagnying [[https://www.youtube.com/@XahLee/streams][youtube live streams]]
+   - the accompanying [[https://www.youtube.com/@XahLee/streams][youtube live streams]]
    - [[https://github.com/xahlee/xah-fly-keys][xah-fly-keys]], a popular modal editing package
 
    Prolific and dedicated contributor to the Emacs and Emacs Lisp community, through his website, live streams and numerous Emacs packages.
